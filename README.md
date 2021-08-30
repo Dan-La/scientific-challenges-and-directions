@@ -1,13 +1,27 @@
-# scientific-challenges-and-directions
+# Scientific challenges and directions
 
-Identifying important challenges and hypothesizing new directions to approach them is at the core of the scientific process. We consider methods that can mine large corpora of papers to automatically identify all problems faced by researchers in specific areas, and hypotheses and future directions that they may consider. We explore the novel task of large-scale extraction and search of scientific challenges and potential directions across biomedical papers, aimed at accelerating scientific discovery. We focus on literature related to the COVID-19 pandemic, constructing and releasing an expert-annotated corpus of texts sampled from full-length COVID-19 papers and labeled for problems and directions with high inter-annotator agreement. We evaluate a range of models on this dataset, and use a scientific language model fine-tuned on our dataset to index challenges and hypotheses from over 500K papers in this area. We build a novel faceted search engine for this information and evaluate its efficacy in user studies, including with MDs who have worked on the front lines of COVID-19. We find that the new search methodology outperforms a widely-used biomedical search system in assisting rapid discovery of challenges and directions in specific areas. Finally, we demonstrate good zero-shot generalization of models trained on our dataset and then applied to biomedical papers in areas extending beyond COVID-19.
+We present a novel resource to help scientists and medical professionals discover challenges and potential directions across scientific literature, focusing on a broad corpus pertaining to the COVID-19 pandemic and related historical research. This repository contains models and datasets described in our paper: [A Search Engine for Discovery of Biomedical Challenges and Directions]().
 
+* Please cite our paper if you use our datasets or models in your project. See the [BibTeX](#citation). 
+* Feel free to [email us](#contact-us).
 
-# Data
-The train, test, and val csvs are on git you can download them from here directly
+## Annotated datasets and model
+The train, test, and val csvs are can be downloaded from our repository directly.
+You can download a pre-trained model from [here](https://challenges-directions.s3.us-west-2.amazonaws.com/Multilabel_ProblemDirection.pth
+). 
+## Example notebook
+We include an example notebook that uses the model for inference. See `Inference_Notebook.ipynb`.
 
-# Model
-You can download the model from here: https://challenges-directions.s3.us-west-2.amazonaws.com/Multilabel_ProblemDirection.pth
+## Citation
 
-# Example notebook
-You can look at an example notebook that uses the model for inference on this git, look for Inference_Notebook.ipynb
+If using our dataset and models, please cite:
+
+```
+
+```
+
+## Contact us
+
+Please don't hesitate to reach out.
+
+**Email:** `lahav@mail.tau.ac.il`,`tomh@allenai.org`.
