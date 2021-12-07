@@ -4,7 +4,7 @@ We present a novel resource to help scientists and medical professionals discove
 
 
 * Please cite our paper if you use our datasets or models in your project. See the [BibTeX](#citation). 
-* Feel free to [email us](#contact-us).
+* Feel free to [email us](#contact-us). 
 
 ## Annotated datasets and model
 The train, test, and val csvs are can be downloaded from our repository directly.
