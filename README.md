@@ -7,9 +7,8 @@ We present a novel resource to help scientists and medical professionals discove
 * Feel free to [email us](#contact-us). 
 
 ## Annotated datasets and model
-The train, test, and val csvs are can be downloaded from our repository directly.
-You can download a pre-trained model from [here](https://challenges-directions.s3.us-west-2.amazonaws.com/Multilabel_ProblemDirection.pth
-). 
+The train, test, and val csvs are can be downloaded from [huggingface](https://huggingface.co/datasets/DanL/scientific-challenges-and-directions-dataset).
+You can download a pre-trained model from [here](https://huggingface.co/DanL/scientific-challenges-and-directions). 
 ## Example notebook
 We include an example notebook that uses the model for inference. See `Inference_Notebook.ipynb`.
 
